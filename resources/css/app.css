@@ -1,0 +1,65 @@
+/* @import "../fonts/franklin-gothic-book.ttf"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Franklin Gothic Book";
+    src: url('../fonts/franklin-gothic-book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url('../fonts/CenturyGothic.ttf') format('truetype');
+}
+
+.middle{
+    background: url(../../public/images/lady1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .backdrop-blur-md {
+    backdrop-filter: blur(10px);
+  }
+
+  /* Add class to make background glass-like when scrolled */
+  .scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

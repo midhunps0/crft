@@ -1,0 +1,1 @@
+<img src="{{ asset($img) }}" alt="" {{ $attributes->merge(['class'=>"mb-10 ltr:lg:pr-40 rtl:lg:pl-40 "])}}>
