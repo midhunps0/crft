@@ -1,0 +1,24 @@
+{
+  "public/images/lady1.png": {
+    "file": "assets/lady1-zQQzCOKa.png",
+    "src": "public/images/lady1.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-WEXYBXad.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/fonts/CenturyGothic.ttf": {
+    "file": "assets/CenturyGothic-mk4_hzS4.ttf",
+    "src": "resources/fonts/CenturyGothic.ttf"
+  },
+  "resources/fonts/franklin-gothic-book.ttf": {
+    "file": "assets/franklin-gothic-book-yKs_fnoz.ttf",
+    "src": "resources/fonts/franklin-gothic-book.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-qDyYtVrF.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
